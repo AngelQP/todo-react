@@ -1,0 +1,51 @@
+.content-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-form {
+  font-size: 16px;
+  width: 85%;
+  height: 60px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  resize: none;
+
+  margin-bottom: 10px;
+}
+
+.content-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 20px; 
+}
+
+.btn {
+  width: 35%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+
+  color: white;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: #f44336;
+}
+
+.btn-confirm {
+  background-color: #4CAF50;
+}

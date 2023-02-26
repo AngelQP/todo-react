@@ -1,0 +1,28 @@
+.container-TodoSearch {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.input-TodoSearch {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 8px 0 8px 15px;
+  border: 1px solid rgba(253,200,58,0.4);
+  border-radius: 8px;
+}
+
+.input-TodoSearch::focus {
+  outline: 0 none;
+  border: 2px solid rgba(253,200,58,0.8);
+}
+
+.icon-TodoSearch {
+  position: absolute;
+  top: 8.5px;
+  right: 10px;
+  width: 18px;
+  object-fit: cover;
+}

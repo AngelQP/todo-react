@@ -1,0 +1,17 @@
+.container-CreateTodoButton {
+  appearance: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+  border: 2px solid rgba(113,131,217,0.9);
+  background-color: rgba(113,131,217,0.5);
+  color: white;
+  font-size: 24px;
+
+  z-index: 100;
+  cursor: pointer;
+}
